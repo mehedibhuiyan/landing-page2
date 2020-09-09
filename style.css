@@ -1,0 +1,132 @@
+*{
+  margin:0rem;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 10px;
+}
+body{
+  overflow-x: hidden;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+}
+
+.navigation{
+  font-size: 1.4rem;
+  display: block;
+}
+
+ul{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+li{
+  padding: 2rem 1.5rem;
+}
+.dropdown{
+  padding-right: 3rem;
+  position: relative;
+  
+}
+.dropdown_content{
+  display: none;
+  position: absolute;
+}
+.dropdown:hover{
+  background-color: #000;
+}
+.dropdown:hover .dropdown_btn{
+  color: #fff;
+}
+.dropdown:hover .dropdown_content{
+  display: block;
+}
+
+.top{
+  width: 100vw;
+  height: 90vh;
+  background-image: url(day-1111.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.topelements{
+  position: relative;
+  top: 50%;
+  left: 20%;
+  transform: translateY(-50%);
+}
+
+.headingtop{
+  font-size: 3rem;
+  padding: 1rem 0rem;
+}
+
+.paratop{
+  font-size: 2rem;
+  width: 60rem;
+  padding: 1rem 2rem 3rem 0rem;
+}
+.form{
+  position: relative;
+  width: 35rem;
+}
+input{
+  width: 30rem;
+  padding: 1rem;
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 0.5rem 0rem 0rem 0.5rem;
+}
+button{
+  position: absolute;
+  top: 0;
+  left: 30rem;
+  padding: 1rem 1.5rem;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.5rem;
+  border-radius: 0rem 0.5rem 0.5rem 0rem;
+  cursor: pointer;
+}
+.parent{
+  display: flex;
+  width: 100vw;
+}
+
+.child{
+  width: 16.6%;
+  font-size: 1.2rem;
+  background: #fff;
+  padding: 1rem;
+  transition: transform .2s;
+}
+
+.child:hover{
+  transform: scale(1.10);
+  transition: transform .3s;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.one{
+  padding-top: 1rem;
+}
+
+.two{
+  padding-top: 1rem;
+}
+
+.five{
+  padding-top: 1rem;
+}
